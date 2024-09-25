@@ -32,7 +32,7 @@ namespace CollegeApp.Controllers
                 Name = item.Name,
                 Email = item.Email,
                 Allowance = item.Allowance,
-            });
+            }).ToList();
 
 
             return Ok(students);
