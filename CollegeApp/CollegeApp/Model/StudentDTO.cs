@@ -21,12 +21,12 @@ namespace CollegeApp.Model
         public int Allowance { get; set; }
 
         
-        public string Password { get; set; }
+        //public string Password { get; set; }
 
-        [Compare(nameof(Password))]
-        public string ConfirmPassword { get; set; }
+        //[Compare(nameof(Password))]
+        //public string ConfirmPassword { get; set; }
 
-        public DateTime AdmissionDate { get; set; }
+        //public DateTime AdmissionDate { get; set; }
 
 
     }

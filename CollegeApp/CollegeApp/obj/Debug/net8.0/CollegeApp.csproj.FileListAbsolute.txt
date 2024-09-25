@@ -31,3 +31,7 @@ C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\Col
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\CollegeApp.genruntimeconfig.cache
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\ref\CollegeApp.dll
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\CollegeApp.sourcelink.json
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
