@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\model\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\model\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\model\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\model\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\Student.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Model\\Student.cs",
               "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\Student.cs",
               "RelativeToolTip": "CollegeApp\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:14:51.177Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CollegeRepository.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\CollegeRepository.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Model\\CollegeRepository.cs",
               "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\CollegeRepository.cs",
               "RelativeToolTip": "CollegeApp\\Model\\CollegeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T05:12:09.226Z",
               "EditorCaption": ""
@@ -58,7 +59,7 @@
               "RelativeDocumentMoniker": "CollegeApp\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\StudentController.cs",
               "RelativeToolTip": "CollegeApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T04:43:16.455Z",
               "EditorCaption": ""

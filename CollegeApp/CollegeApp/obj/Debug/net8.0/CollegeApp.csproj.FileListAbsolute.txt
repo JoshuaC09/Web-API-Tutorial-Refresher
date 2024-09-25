@@ -30,3 +30,4 @@ C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\Col
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\CollegeApp.pdb
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\CollegeApp.genruntimeconfig.cache
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\ref\CollegeApp.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\obj\Debug\net8.0\CollegeApp.sourcelink.json
