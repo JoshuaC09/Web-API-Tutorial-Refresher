@@ -49,6 +49,7 @@ namespace CollegeApp.Controllers
             {
                 return BadRequest("Invalid Id");
             }
+      
             Student student = CollegeRepository.Students.Where(item => item.Id == id).FirstOrDefault();
             if (student == null)
             {
@@ -97,11 +98,16 @@ namespace CollegeApp.Controllers
             {
                 return BadRequest();
             }
-            
-            if (studentModel == null)
+
+            if(studentModel.AdmissionDate <= DateTime.Now)
             {
-                return BadRequest();
+                //1. Directly adding error message to model state
+                //2. Using custom attribute
+                ModelState.AddModelError("AdmissionDate Error","Admission date must be greater than  or equal to todays date");
+                return BadRequest(ModelState);
             }
+            
+           
 
             int newId = CollegeRepository.Students.LastOrDefault().Id + 1;
 
