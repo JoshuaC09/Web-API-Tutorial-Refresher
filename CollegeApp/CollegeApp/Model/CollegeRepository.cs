@@ -8,15 +8,15 @@
             new Student()
             {
                 Id = 1,
-                Name = "Test1",
-                Email = "Test1",
+                Name = "Test",
+                Email = "Test",
                 Allowance = 100
             }      ,
             new Student()
             {
-                Id = 2,
-                Name = "Test2",
-                Email = "Test2",
+                Id = 1,
+                Name = "Test",
+                Email = "Test",
                 Allowance = 100
             }
 
