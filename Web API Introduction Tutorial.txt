@@ -1,0 +1,51 @@
+UI-BLL-DBL-DB
+
+UI-> Front-End (React, Angular, Vue)
+BLL and DBL-> WEB API (.Net, SpringBoot, Nextjs and expressjs)
+DB- Database (MongoDb,Sql Server, MySql)
+
+
+Web API Request and Response
+
+Request
+	Verb
+	HttpActions
+		Get
+		Post
+		Put
+		Delete
+		Patch
+	Headers 
+	MetaData
+		Content Type
+		Content Length
+		Authorization
+	Content
+		Test Data
+
+Response
+	Status
+		100-199 Informational
+		200-299 Success
+		    200-OK
+		    201-Created
+		    204-No Content
+		300-399 Redirection
+		400-499 Client Errors
+		    400-Bad Request
+		    401-UnAuthorized
+		    404-Not Found
+		    409-Conflict
+		500-599 Server Errors
+		    500-Internal server Error
+	
+	Headers
+		Content Type
+		Content Length
+		Authorization
+
+	Content
+		Test Data
+
+
+
