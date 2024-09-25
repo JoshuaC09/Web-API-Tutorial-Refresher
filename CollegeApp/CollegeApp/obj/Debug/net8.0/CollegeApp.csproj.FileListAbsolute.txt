@@ -35,3 +35,13 @@ C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\Col
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Serilog.Sinks.File.dll

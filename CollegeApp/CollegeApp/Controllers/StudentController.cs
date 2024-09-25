@@ -8,6 +8,13 @@ namespace CollegeApp.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
+        private readonly ILogger<StudentController> _logger;
+
+        public StudentController(ILogger<StudentController> logger)
+        {
+             _logger = logger;
+        }
+
         [HttpGet]
         [Route("All", Name = "GetAllStudent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -26,6 +33,8 @@ namespace CollegeApp.Controllers
             //    students.Add(student);
             //}
 
+            _logger.LogInformation("GetStudents method started..");
+
             IEnumerable<StudentDTO> students = CollegeRepository.Students.Select(item => new StudentDTO()
             {
                 Id = item.Id,
@@ -38,6 +47,9 @@ namespace CollegeApp.Controllers
             return Ok(students);
         }
 
+
+
+
         [HttpGet("{id:int}", Name = "GetStudentById")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -48,6 +60,7 @@ namespace CollegeApp.Controllers
 
             if (id <= 0)
             {
+                _logger.LogWarning("BadRequest");
                 return BadRequest("Invalid Id");
             }
       
