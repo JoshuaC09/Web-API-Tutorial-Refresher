@@ -49,3 +49,18 @@ Response
 
 
 
+Action
+	GetAllStudents
+	GetStudentById
+	DeleteStudentById
+Verb
+	HttpGet
+	HttpGet
+	HttpDelete
+Route
+	http://localhost/api/student
+	http://localhost/api/student/1
+	http://localhost/api/student/1	
+
+
+
