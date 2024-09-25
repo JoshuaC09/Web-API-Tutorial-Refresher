@@ -1,0 +1,45 @@
+Singleton - Doesn't create new object if there is already an object created
+	  - Use through out the application 
+                    
+                       LogService(Object)
+	Web Request 		- nth number of request
+	LogService DI Request   - nth number of request
+	LogService Instance	- only 	1 instance
+
+
+
+Scoped  - Create object per request to from the web client
+
+	Web Request 		- nth number of request
+	LogService DI Request   - nth number of request
+	LogService Instance	- nth number of instances
+
+	Web Request 		- 1 
+	LogService DI Request   - 5
+	Logservice Instance	- 1
+
+	Web Request 		- 3
+	LogService DI Request   - 5
+	Logservice Instance	- 3
+
+
+
+	Web Request 		- 2
+	LogService DI Request   - 2
+	Logservice Instance	- 2
+
+
+Transient - Create object per request from the Web client and DI engine ()
+
+	Web Request 		- nth number of request
+	LogService DI Request   - nth number of request
+	LogService Instance	- nth number of instances
+
+	Web Request 		- 5
+	LogService DI Request   - 5
+	Logservice Instance	- 5
+
+
+	Web Request 		- 2
+	LogService DI Request   - 2
+	Logservice Instance	- 2

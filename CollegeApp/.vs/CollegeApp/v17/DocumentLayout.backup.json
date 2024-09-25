@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\controllers\\loggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\loggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\mylogging\\implementation\\logtofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\mylogging\\implementation\\logtofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\mylogging\\implementation\\logtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\mylogging\\implementation\\logtodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\mylogging\\implementation\\logtoservermemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\mylogging\\implementation\\logtoservermemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\mylogging\\interface\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\mylogging\\interface\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\collegeapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\collegeapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C3F275-E383-4AC6-A54F-71FA42616B49}|CollegeApp\\CollegeApp.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\collegeapp\\collegeapp\\model\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\Student.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Model\\Student.cs",
@@ -51,20 +75,123 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollegeApp.http",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\CollegeApp.http",
+              "RelativeDocumentMoniker": "CollegeApp\\CollegeApp.http",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\CollegeApp.http",
+              "RelativeToolTip": "CollegeApp\\CollegeApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-25T13:15:41.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoggerController.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\LoggerController.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\Controllers\\LoggerController.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\LoggerController.cs",
+              "RelativeToolTip": "CollegeApp\\Controllers\\LoggerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:14:37.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogToServerMemory.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToServerMemory.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\MyLogging\\Implementation\\LogToServerMemory.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToServerMemory.cs",
+              "RelativeToolTip": "CollegeApp\\MyLogging\\Implementation\\LogToServerMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:12:16.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogToFile.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToFile.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\MyLogging\\Implementation\\LogToFile.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToFile.cs",
+              "RelativeToolTip": "CollegeApp\\MyLogging\\Implementation\\LogToFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:12:00.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogToDb.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToDb.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\MyLogging\\Implementation\\LogToDb.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Implementation\\LogToDb.cs",
+              "RelativeToolTip": "CollegeApp\\MyLogging\\Implementation\\LogToDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:11:50.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMyLogger.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Interface\\IMyLogger.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\MyLogging\\Interface\\IMyLogger.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\MyLogging\\Interface\\IMyLogger.cs",
+              "RelativeToolTip": "CollegeApp\\MyLogging\\Interface\\IMyLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T13:11:31.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Program.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Program.cs",
               "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Program.cs",
               "RelativeToolTip": "CollegeApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T12:08:32.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\Model\\StudentDTO.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\StudentDTO.cs",
+              "RelativeToolTip": "CollegeApp\\Model\\StudentDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T07:34:20.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CollegeApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CollegeApp\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:43:16.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DateCheckAttribute.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Validators\\DateCheckAttribute.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Validators\\DateCheckAttribute.cs",
@@ -76,20 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentDTO.cs",
-              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\StudentDTO.cs",
-              "RelativeDocumentMoniker": "CollegeApp\\Model\\StudentDTO.cs",
-              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\StudentDTO.cs",
-              "RelativeToolTip": "CollegeApp\\Model\\StudentDTO.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T07:34:20.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "CollegeRepository.cs",
               "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Model\\CollegeRepository.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Model\\CollegeRepository.cs",
@@ -97,21 +211,7 @@
               "RelativeToolTip": "CollegeApp\\Model\\CollegeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T05:12:09.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "CollegeApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\CollegeApp\\CollegeApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "CollegeApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:43:16.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T05:12:09.226Z"
             }
           ]
         }

@@ -1,6 +1,14 @@
+using CollegeApp.MyLogging.Implementation;
+using CollegeApp.MyLogging.Interface;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//builder.Services.AddScoped<IMyLogger, LogToDB>();
+//builder.Services.AddSingleton<IMyLogger, LogToServerMemory>();
+builder.Services.AddTransient<IMyLogger, LogToFile>();
+
 
 
 builder.Services.AddControllers().AddNewtonsoftJson().AddXmlDataContractSerializerFormatters();
