@@ -1,0 +1,3 @@
+Data Source=Joshua;Initial Catalog=AdventureWorksLT2022;Integrated Security=True;Trust Server Certificate=True
+
+Scaffold-DbContext "Data Source=Joshua;Initial Catalog=AdventureWorksLT2022;Integrated Security=True;Trust Server Certificate=True"Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

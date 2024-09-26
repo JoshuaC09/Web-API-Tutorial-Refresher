@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\EFDatabaseFirstApproach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3514846D-8C0C-4A66-B664-D2D436907EC9}|EFDatabaseFirstApproach\\EFDatabaseFirstApproach.csproj|c:\\tutorials folder\\asp.net core web api tutorial\\web-api-tutorial-refresher\\efdatabasefirstapproach\\efdatabasefirstapproach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3514846D-8C0C-4A66-B664-D2D436907EC9}|EFDatabaseFirstApproach\\EFDatabaseFirstApproach.csproj|solutionrelative:efdatabasefirstapproach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\EFDatabaseFirstApproach\\EFDatabaseFirstApproach\\appsettings.json",
+              "RelativeDocumentMoniker": "EFDatabaseFirstApproach\\appsettings.json",
+              "ToolTip": "C:\\TUTORIALS FOLDER\\ASP.NET CORE WEB API TUTORIAL\\Web-API-Tutorial-Refresher\\EFDatabaseFirstApproach\\EFDatabaseFirstApproach\\appsettings.json",
+              "RelativeToolTip": "EFDatabaseFirstApproach\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T15:19:39.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
