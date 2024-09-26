@@ -1,6 +1,6 @@
-﻿using CollegeApp.Model;
+﻿using CollegeApp.Data.Config;
+using CollegeApp.Model;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
 
 namespace CollegeApp.Data
 {
@@ -10,7 +10,13 @@ namespace CollegeApp.Data
         {
             
         }
-
         public DbSet<Student> Students { get; set; }
+        public DbSet<Department> Departments { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StudentConfig());
+            modelBuilder.ApplyConfiguration(new DepartmentConfig());
+        }
     }
 }
