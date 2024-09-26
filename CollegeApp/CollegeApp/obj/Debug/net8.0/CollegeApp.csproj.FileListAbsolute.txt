@@ -139,3 +139,4 @@ C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\Col
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\TUTORIALS FOLDER\ASP.NET CORE WEB API TUTORIAL\Web-API-Tutorial-Refresher\CollegeApp\CollegeApp\bin\Debug\net8.0\AutoMapper.dll

@@ -245,7 +245,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
+        "Name": "studentDTO",
         "Type": "CollegeApp.Model.StudentDTO",
         "IsRequired": true
       }
