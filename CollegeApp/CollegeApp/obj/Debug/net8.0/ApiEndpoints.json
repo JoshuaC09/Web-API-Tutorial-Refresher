@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "CollegeApp.Controllers.LoggerController",
+    "Method": "TestDI",
+    "RelativePath": "api/Logger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CollegeApp.Controllers.StudentController",
     "Method": "GetStudentName",
     "RelativePath": "api/Student",
