@@ -1,0 +1,5 @@
+
+// To Delete Database
+USE master;
+ALTER DATABASE StudentDb SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+DROP DATABASE StudentDb;
