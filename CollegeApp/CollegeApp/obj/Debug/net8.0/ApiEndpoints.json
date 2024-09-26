@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "CollegeApp.Controllers.StudentController",
-    "Method": "GetStudent",
+    "Method": "GetStudentByIdAsync",
     "RelativePath": "api/Student/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -171,7 +171,7 @@
   },
   {
     "ContainingType": "CollegeApp.Controllers.StudentController",
-    "Method": "GetStudentName",
+    "Method": "GetAllStudentAsync",
     "RelativePath": "api/Student/All",
     "HttpMethod": "GET",
     "IsController": true,
@@ -194,7 +194,7 @@
   },
   {
     "ContainingType": "CollegeApp.Controllers.StudentController",
-    "Method": "CreateStudent",
+    "Method": "CreateStudentAsync",
     "RelativePath": "api/Student/Create",
     "HttpMethod": "POST",
     "IsController": true,

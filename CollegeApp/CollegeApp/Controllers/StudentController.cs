@@ -23,7 +23,7 @@ namespace CollegeApp.Controllers
         [Route("All", Name = "GetAllStudent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
 
-        public ActionResult<IEnumerable<StudentDTO>> GetStudentName()
+        public async Task<ActionResult<IEnumerable<StudentDTO>>> GetAllStudentAsync()
         {
             //List<StudentDTO> students = new List<StudentDTO>();
             //foreach (Student item in CollegeRepository.Students)
@@ -39,7 +39,7 @@ namespace CollegeApp.Controllers
 
             _logger.LogInformation("GetStudents method started..");
 
-            IEnumerable<StudentDTO> students = _context.Students.Select(item => new StudentDTO()
+            IEnumerable<StudentDTO> students = await _context.Students.Select(item => new StudentDTO()
             {
                 Id = item.Id,
                 Name = item.Name,
@@ -47,7 +47,7 @@ namespace CollegeApp.Controllers
                 DateTime = item.DateTime,   
                 
                
-            }).ToList();
+            }).ToListAsync();
 
 
             return Ok(students);
@@ -59,7 +59,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<Student> GetStudent(int id)
+        public async Task<ActionResult<Student>> GetStudentByIdAsync(int id)
         {
 
             if (id <= 0)
@@ -68,7 +68,7 @@ namespace CollegeApp.Controllers
                 return BadRequest("Invalid Id");
             }
 
-            Student student = _context.Students.Where(item => item.Id == id).FirstOrDefault();
+            Student student = await _context.Students.Where(item => item.Id == id).FirstOrDefaultAsync();
 
 
             if (student == null)
@@ -95,7 +95,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
 
-        public ActionResult<bool> DeleteStudent(int id)
+        public async Task<ActionResult<bool>> DeleteStudent(int id)
         {
 
             Student student = _context.Students.Where(student => student.Id == id).FirstOrDefault();
@@ -105,7 +105,7 @@ namespace CollegeApp.Controllers
                 return NotFound($"Student with {id} is not found");
             }
             _context.Students.Remove(student);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return Ok(true);
         }
 
@@ -115,7 +115,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public ActionResult<StudentDTO> CreateStudent([FromBody] StudentDTO studentModel)
+        public async Task<ActionResult<StudentDTO>> CreateStudentAsync([FromBody] StudentDTO studentModel)
         {
             //Use this if  [ApiController]  is not present or commented
             if (!ModelState.IsValid)
@@ -143,8 +143,8 @@ namespace CollegeApp.Controllers
              DateTime = studentModel.DateTime,
             };
 
-            _context.Students.Add(student);
-            _context.SaveChanges();
+            await _context.Students.AddAsync(student);
+            await _context.SaveChangesAsync();
 
             return CreatedAtRoute("GetStudentById", new {Id=studentModel.Id }, studentModel);
         }
@@ -156,13 +156,13 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public ActionResult<StudentDTO> UpdateStudent([FromBody] StudentDTO model)
+        public async Task<ActionResult<StudentDTO>> UpdateStudent([FromBody] StudentDTO model)
         {
             if (model == null || model.Id <= 0)
             {
                 BadRequest();
             }
-            Student existingStudent = _context.Students.AsNoTracking().Where(student => student.Id == model.Id).FirstOrDefault();
+            Student existingStudent = await _context.Students.AsNoTracking().Where(student => student.Id == model.Id).FirstOrDefaultAsync();
             if (existingStudent == null)
             {
                 return NotFound();
@@ -182,7 +182,7 @@ namespace CollegeApp.Controllers
             //existingStudent.Email = model.Email;
             //existingStudent.DateTime = model.DateTime;
 
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return NoContent();
         }
 
@@ -193,7 +193,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult UpdateStudentPartial(int id, [FromBody] JsonPatchDocument<StudentDTO> patchDocument)
+        public async Task<ActionResult> UpdateStudentPartial(int id, [FromBody] JsonPatchDocument<StudentDTO> patchDocument)
         {
             // Validate patch document and id
             if (patchDocument == null || id <= 0)
@@ -202,7 +202,7 @@ namespace CollegeApp.Controllers
             }
 
             // Retrieve existing student from the database
-            var existingStudent = _context.Students.FirstOrDefault(student => student.Id == id);
+            var existingStudent =await _context.Students.FirstOrDefaultAsync(student => student.Id == id);
             if (existingStudent == null)
             {
                 return NotFound($"Student with ID {id} not found.");
@@ -231,7 +231,7 @@ namespace CollegeApp.Controllers
             existingStudent.Email = studentDTO.Email;
             existingStudent.DateTime = studentDTO.DateTime;
 
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
 
             return NoContent();
         }
