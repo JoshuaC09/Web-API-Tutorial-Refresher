@@ -28,6 +28,58 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 
+builder.Services.AddCors(options =>
+{
+    //options.AddDefaultPolicy(policy =>
+    //{
+    //    //Allow Any Origins
+    //    //policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+
+    //    //Allow specific origins
+    //    policy.AllowAnyOrigin()
+    //          .AllowAnyHeader()
+    //          .AllowAnyMethod();
+    //});
+
+    options.AddPolicy("AllowAll",policy =>
+    {
+        //Allow Any Origins
+        //policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+
+        //Allow specific origins
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+
+
+
+    options.AddPolicy("AllowOnlyLocalHost", policy =>
+    {
+        //Allow specific origins
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+
+    options.AddPolicy("AllowOnlyGoolge", policy =>
+    {
+      
+        //Allow specific origins
+        policy.WithOrigins("http://google.com")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+    options.AddPolicy("AllowOnlyMicrosoft", policy =>
+    {
+        
+        //Allow specific origins
+        policy.WithOrigins("http://outlook.com")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -38,6 +90,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

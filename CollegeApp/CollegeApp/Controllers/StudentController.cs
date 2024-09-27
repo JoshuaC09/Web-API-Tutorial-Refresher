@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CollegeApp.Data.Repository;
 using CollegeApp.Model;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +9,7 @@ namespace CollegeApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[EnableCors(PolicyName = "AllowOnlyLocalHost")] //Controller Or Class level CORS
     public class StudentController : ControllerBase
     {
         private readonly ILogger<StudentController> _logger;
@@ -53,6 +55,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+       // [EnableCors(PolicyName ="AllowAll")] // Method level CORS
 
         public async Task<ActionResult<Student>> GetStudentByIdAsync(int id)
         {
@@ -83,6 +86,7 @@ namespace CollegeApp.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        //[DisableCors] //To Disable CORS
 
         public async Task<ActionResult<bool>> DeleteStudent(int id)
         {
