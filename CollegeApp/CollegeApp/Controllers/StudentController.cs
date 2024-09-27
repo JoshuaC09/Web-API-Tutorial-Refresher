@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using CollegeApp.Data.Repository;
 using CollegeApp.Model;
-using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,6 +9,9 @@ namespace CollegeApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "LoginForLocalUsers", Roles ="Superadmin, Admin")]
+   
+
     //[EnableCors(PolicyName = "AllowOnlyLocalHost")] //Controller Or Class level CORS
     public class StudentController : ControllerBase
     {
@@ -28,6 +31,7 @@ namespace CollegeApp.Controllers
         [HttpGet]
         [Route("All", Name = "GetAllStudent")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+      
 
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetAllStudentAsync()
         {
