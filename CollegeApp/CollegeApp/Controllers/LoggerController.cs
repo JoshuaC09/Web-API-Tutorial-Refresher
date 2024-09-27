@@ -13,12 +13,14 @@ namespace CollegeApp.Controllers
         // 1. Strongly coupled/tightly coupled
         // 2. Loosely coupled
 
-
+        private readonly IConfiguration _configuration;
+        private readonly string _jwtSecret;
 
         private readonly IMyLogger _logger;
-        public LoggerController(IMyLogger logger)
+        public LoggerController(IMyLogger logger, IConfiguration configuration)
         { 
-          
+            _configuration = configuration;
+            _jwtSecret = _configuration.GetSection("JWTSecret").Value;
             _logger = logger;
         }
 
@@ -26,7 +28,8 @@ namespace CollegeApp.Controllers
         public ActionResult TestDI()
         {
            string rusult =  _logger.Log("Dependency Injection Tutorial");
-            return Ok(rusult);
+
+            return Ok(_jwtSecret);
         }
 
 

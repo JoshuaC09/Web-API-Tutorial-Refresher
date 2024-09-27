@@ -38,13 +38,13 @@ export class AppComponent {
   }
   getJWTToken() {
     let payload = {
-      username: 'Venkat',
-      password: 'Venkat123',
-      policy: 'Local',
+      policyName: 'Local',
+      username: 'Joshua',
+      password: '123',
     };
 
     this._httpClient
-      .post('https://localhost:7185/api/Login', payload, this.loginHeaders())
+      .post('https://localhost:7006/api/Login', payload, this.loginHeaders())
       .subscribe({
         //Success
         next: (result: any) => {
@@ -74,7 +74,7 @@ export class AppComponent {
   }
   callMicrosoft() {
     this._httpClient
-      .get('https://localhost:7185/api/Microsoft', this.getHeaders())
+      .get('https://localhost:7006/api/Microsoft', this.getHeaders())
       .subscribe({
         //Success
         next: (result: any) => {
